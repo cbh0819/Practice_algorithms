@@ -1,0 +1,28 @@
+#Greedy
+
+Selecting the best way on present situation
+
+Question 1:
+
+first input: input 3 variables
+each means size of array, the number of numbers(maybe integer) to add, maximum add iterations with same number.
+
+second input: Enter as many numbers as the number of variables previously entered
+
+Here's example
+input: 
+4 6 2
+2 4 3 5 4
+
+result: 28(5+5+4+5+5+4)
+
+this result means we can add the maximum number as much as maximum add iterations. then, we add second largest number once.
+and then add max number again.
+so we can get that result.
+
+Solution 1)
+
+we need some steps for solving this problems.
+1. use dynamic array for control input numbers
+2. sort array(ascending or decending) for to find the maximum and the next larger
+3. implement according to the rules
